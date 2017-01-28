@@ -31,6 +31,16 @@ For the above you need to pull the image from the given url.
 This app takes down notes. This application uses MemoryDB so in case you want to note down something personal, you can.
 
 
+### Steps to build application image and publish it to docker repository
+```
+1. git clone https://github.com/tinker20/docker-loopback-demo.git
+2. cd docker-loopback-demo
+3. docker build -t notepad . (Refer to the Dockerfile for more information)
+4. docker images (This will list all the existing docker images. Copy the IMAGE ID from the desired image)
+5. docker tag <IMAGE ID> <docker_username>/<repository_name>
+6. docker push <docker_username>/<repository_name>
+```
+
 ###TODO - 
 
 1. Add a remote method.
