@@ -7,7 +7,7 @@ This project is for the demonstration on how to glue LoopbackJS, Docker and all 
 ### PREQUISITES:-
 
 
-1) [DOCKER] (https://www.docker.com/, "Docker's Homepage")
+1) [DOCKER] (https://www.docker.com/ "Docker's Homepage")
 
 ```
 What is Docker?
@@ -19,7 +19,7 @@ The best part is that if it runs in your machine, it will just run in any machin
 ```
 
 
-You can also find this image [here](https://hub.docker.com/r/tinker20/notepad/, "Docker image of this project").
+You can also find this image [here](https://hub.docker.com/r/tinker20/notepad/ "Docker image of this project").
 
 For the above you need to pull the image from the given url.
 
